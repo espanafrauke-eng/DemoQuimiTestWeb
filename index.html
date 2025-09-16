@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Portal Educativo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Quimi Test</h1>
+    </header>
+
+    <main>
+        <!-- Sección de Teoría -->
+        <section id="teoria">
+            <h2>Teoría</h2>
+            <button id="btnTeoria">Mostrar Teoría</button>
+            <p id="contenidoTeoria" style="display:none;">
+                La teoría explica conceptos básicos de la materia. Aqui pondresmos resumen corto de la teoría, fórmulas o imágenes.
+            </p>
+        </section>
+
+        <!-- Sección de Cuestionario -->
+        <section id="cuestionario">
+            <h2>Cuestionario</h2>
+            <div id="preguntaContainer">
+                <p id="pregunta"></p>
+                <div id="opciones"></div>
+            </div>
+            <p id="feedback"></p>
+            <button id="btnSiguiente" style="display:none;">Siguiente Pregunta</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Demo Quimi Test</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

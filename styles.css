@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #004080;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    background-color: #004080;
+    color: white;
+}
+
+button:hover {
+    background-color: #0066cc;
+}
+
+#contenidoTeoria {
+    margin-top: 10px;
+}
+
+#feedback {
+    font-weight: bold;
+    margin-top: 10px;
+}
